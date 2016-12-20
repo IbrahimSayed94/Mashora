@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/home_background"
+    android:weightSum="1">
+
+    <View
+        android:id="@+id/savedImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.07"
+         />
+
+    <ImageView
+        android:id="@+id/notifi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.10"
+        android:scaleType="fitXY"
+        android:src="@drawable/notifi" />
+
+<View
+    android:id="@+id/View2"
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="0.05" />
+
+<ImageView
+    android:id="@+id/reqlawyer"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.20"
+    android:src="@drawable/reqlawyer" />
+<View
+        android:id="@+id/View3"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.02"
+         />
+<ImageView
+    android:id="@+id/reqmashowra"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.20"
+    android:src="@drawable/reqmashowra" />
+<View
+        android:id="@+id/View4"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.02"
+         />
+<ImageView
+    android:id="@+id/reqjob"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.20"
+    android:src="@drawable/reqjob" />
+
+<View
+    android:id="@+id/View5"
+    android:layout_width="fill_parent"
+    android:layout_height="0dip"
+    android:layout_weight="0.04" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.07" 
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/aboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/aboutus" />
+
+    <ImageView
+        android:id="@+id/joinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/joinus" 
+        android:layout_marginLeft="22dp"/>
+    
+</LinearLayout>
+</LinearLayout>

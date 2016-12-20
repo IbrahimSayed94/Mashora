@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">مشورة</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add">add</string>
+    <string name="title_activity_splash2">Splash2Activity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_web_view">طلب وظيفة</string>
+    <string name="title_activity_req_mashour">طلب مشورة</string>
+    <string name="title_activity_req_mashour_model">نموذج طلب مشورة</string>
+    <string name="title_activity_req_lawer">ReqLawerActivity</string>
+    <string name="title_activity_notifi_page">صفحه الاشعارات</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="search_label">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="crime_fiction">Best crime ficiton books</string>
+    <string name="title_activity_web_view_notification">WebViewNotificationActivity</string>
+
+</resources>

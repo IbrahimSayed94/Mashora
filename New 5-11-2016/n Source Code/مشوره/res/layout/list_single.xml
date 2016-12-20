@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:stretchColumns="3"
+    >
+    <TableRow
+        android:layout_width="fill_parent"
+         android:gravity="right"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:background="@layout/roundedgolden">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="right"
+            android:layout_marginRight="35dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/cabecera"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15px"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descripcion"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15px"
+                android:textStyle="bold" 
+                android:layout_marginTop="15dp"/>
+        </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="fill_parent"
+             android:layout_marginRight="10dp"
+             android:gravity="right"
+             android:orientation="vertical" >
+
+             <TextView
+                 android:id="@+id/cabecera1"
+                 android:layout_width="62dp"
+                 android:layout_height="wrap_content"
+                 android:text=""
+                 android:textSize="15px"
+                 android:textStyle="bold" 
+              
+                 android:gravity="right"/>
+
+             <TextView
+                 android:id="@+id/txt"
+                 android:layout_width="62dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="15dp"
+                 android:layout_weight="0.01"
+                 android:text=""
+                 android:textSize="15px"
+                 android:textStyle="bold"
+                  
+                 android:gravity="right"/>
+         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/aboutus"
+            android:layout_marginRight="5dp"
+            />
+ 
+</TableRow>
+</TableLayout>

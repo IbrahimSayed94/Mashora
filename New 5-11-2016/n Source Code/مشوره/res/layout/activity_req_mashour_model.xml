@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/mashourmodel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mashourmodel" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignTop="@+id/textView1"
+        android:background="@layout/roundedwhite"
+        android:ems="10" 
+        android:layout_marginLeft="15dp"
+        android:gravity="top|left" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toLeftOf="@+id/textView2"
+        android:background="@layout/roundedwhite"
+        android:ems="10"
+        android:inputType="number"
+         android:gravity="top|left"  />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/view2"
+        android:layout_toLeftOf="@+id/textView1"
+        android:background="@layout/roundedwhite"
+        android:ems="10" 
+         android:gravity="top|left" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/mashourmodel" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view1"
+        android:layout_marginRight="18dp"
+        android:background="@layout/roundedblack"
+        android:text="  الاسم   "
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/view2"
+        android:background="@layout/roundedblack"
+        android:text="  الايميل   "
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="16dp"
+        android:background="@layout/roundedblack"
+        android:text="  رقم الجوال   "
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="@layout/roundred"
+        android:text=" ارسال الطلب "
+          android:onClick="postData"
+        android:textColor="#070012"
+        android:textSize="25sp"
+         android:layout_marginTop="15dp"/>
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText3" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView4"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/view4"
+        android:background="@layout/roundedwhite"
+        android:gravity="top|right" 
+        android:layout_marginTop="7dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view4"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wasf" />
+
+    <EditText
+        android:id="@+id/com"
+        android:layout_width="wrap_content"
+         android:layout_height="40dp"
+        android:layout_above="@+id/view1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:background="@layout/rounded_border_edittext"
+        
+        android:textColor="#070012" />
+
+</RelativeLayout>

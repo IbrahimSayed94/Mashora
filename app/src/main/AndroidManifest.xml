@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lawyer.mashowra.mashowra">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mashoraicon"
+        android:label="مشورة               "
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".setupsplash" />
+        <activity android:name=".setupsplash2" />
+        <activity android:name=".homepage" />
+        <activity
+            android:name=".reqjob"
+            android:label="طلب وظيفة"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".reqmashora"
+            android:label=" طلب مشورة               "
+            android:theme="@style/FullscreenTheme"
+            >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".q3ama"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".qtogrya"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".a7wal"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".tanfyz"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".tarkat"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".qganya"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".qedrya"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".q3mlya"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".awqaf"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".gm3yat"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".anothermashora"
+            android:label="نموذج طلب مشورة               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".notificationslist"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".reqlawyer"
+            android:label="طلب محامى               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".aboutus"
+            android:label="من نحن               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".lawyer_req"
+            android:label="محامى               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".mostshar_req"
+            android:label="مستشار قانونى               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".mo7kem_req"
+            android:label="محكم               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".mosek_req"
+            android:label="موثق               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".modreblaw_req"
+            android:label="مدرب قانونى               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".lawyermotderb_req"
+            android:label="محامى متدرب               "
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+        <activity
+            android:name=".profile_lawyer"
+            android:label="الملف الشخصى               ">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.lawyer.mashowra.mashowra.splash" />
+        </activity>
+    </application>
+
+</manifest>
